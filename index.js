@@ -1,5 +1,5 @@
 const express = require('express');
-const Contenedor = require('./Contenedor');
+const Contenedor = require('./service/Contenedor');
 
 let contenedor = new Contenedor('data/productos.txt');
 
